@@ -12,4 +12,4 @@
 
 # ** Блок-схема алгоритма**
 
-[Блок-схема решения](/Users/mihaillazarenko/Documents/Программа разработчик/Final)
+![Блок-схема алгоритма](https://disk.yandex.ru/i/huyLysWwXCx8hA)
