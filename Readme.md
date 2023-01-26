@@ -12,4 +12,4 @@
 
 # ** Блок-схема алгоритма**
 
-![Блок-схема алгоритма](https://disk.yandex.ru/i/huyLysWwXCx8hA)
+![Блок-схема алгоритма](https://github.com/mikhaillazarenko86/final/blob/master/IMG_0412.PNG?raw=true)
