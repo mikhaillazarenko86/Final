@@ -34,7 +34,18 @@ int EnterWords(string message)
     int count = Convert.ToInt32(Console.ReadLine());
     return count;
 }
-
+string[] FillArray(int length)
+{
+    string[] array = new string[length];
+    for (int i = 0; i < length; i++)
+    {
+       Console.WriteLine($"Введите слово {i+1}");
+       array[i] = Convert.ToString(Console.ReadLine());     
+    }
+return array;
+} 
 
 int count = EnterWords("Введите количество слов");
 Console.WriteLine(count);
+string[] WordsArray = FillArray(count);
+Console.WriteLine($"{string.Join(", ", WordsArray)}");
