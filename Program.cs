@@ -44,8 +44,20 @@ string[] FillArray(int length)
     }
 return array;
 } 
-
-int count = EnterWords("Введите количество слов");
-Console.WriteLine(count);
-string[] WordsArray = FillArray(count);
+int CountOfWords(string[] array)
+{
+int count = 0;
+for (int i = 0; i < array.Length; i++)
+{
+if (array[i].Length <= 3)
+{
+count++;
+}
+}
+return count;
+}
+int quantity = EnterWords("Введите количество слов");
+string[] WordsArray = FillArray(quantity);
 Console.WriteLine($"{string.Join(", ", WordsArray)}");
+int count = CountOfWords(WordsArray);
+Console.WriteLine(count);
