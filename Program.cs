@@ -33,8 +33,14 @@ string[] NewArray(int n, string[] array)
     for (int i = 0; i < array.Length; i++)
     {
        if (array[i].Length <= 3)
-       newarray[i] = array[i];     
+       {
+       newarray[i] = array[i];
+       }     
     }
+if (newarray.Length == 0)
+{
+    Console.WriteLine("Нет слов удовлетворяющих условию");
+}
 return newarray;
 } 
 int quantity = EnterWords("Введите количество слов");
